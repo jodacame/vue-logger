@@ -42,4 +42,4 @@ this.$log.info(`Hi I'am a Info`)
 this.$log.success(`Hi I'am a Success`)
 ```
 
-**Show log into your console only when NODE_ENV != 'production'**
+![PREVIEW](https://raw.githubusercontent.com/jodacame/vue-logger/master/assets/preview.png)
