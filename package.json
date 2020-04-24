@@ -1,0 +1,23 @@
+{
+  "name": "vue-logger",
+  "version": "0.1.0",
+  "description": "Extremely minimalistic logger",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jodacame/vue-logger.git"
+  },
+  "keywords": [
+    "Vue",
+    "Logger",
+    "Vue",
+    "Logger",
+    "Debug"
+  ],
+  "author": "Jodacame",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jodacame/vue-logger/issues"
+  },
+  "homepage": "https://github.com/jodacame/vue-logger#readme"
+}
