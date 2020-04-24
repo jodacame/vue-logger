@@ -73,4 +73,4 @@ log.setName('Logger for vue.js [Nuxt]');
 log.info('ℹ️ Usage & More info 👉 https://github.com/jodacame/vue-logger');
 log.setName(false);
 
-module.export = debug;
+module.export = log;
