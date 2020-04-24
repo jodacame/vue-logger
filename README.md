@@ -2,8 +2,8 @@ TODO: Improve documentation
 
 ## Features
 
-- Memory Usage
-- File patch 
+- Memory usage
+- File path 
 - Colorized 
 - Time execution 
 - Very light 3kb
@@ -18,7 +18,7 @@ npm i https://github.com/jodacame/vue-logger.git
 
 ## Nuxt Usage
 
-Create file into plugin folder  ***plugins/logger.js*** and put the next code:
+Create file into plugins folder  ***plugins/logger.js*** and put the next code:
 
 ```js
 import Vue from 'vue'
