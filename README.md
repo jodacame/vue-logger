@@ -1,5 +1,13 @@
 TODO: Improve documentation
 
+## Features
+
+- Memory Usage
+- File patch 
+- Colorized 
+- Time execution 
+- Very light 3kb
+
 ## Installation 
 
 Install from github for now
