@@ -46,8 +46,8 @@ const log = {
 				success: '#2E7D32',
 				info: '#7E57C2',
 			};
-			let memory = '⚙️ SSR';
-			if (process.client) {
+			let memory = '⚙️';
+			if (typeof performance != 'undefined') {
 				memory = log.showMemoryUsage
 					? `⚙️ ${log.formatBytes(performance.memory.usedJSHeapSize, 0)}`
 					: '';
