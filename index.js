@@ -46,9 +46,13 @@ const log = {
 				success: '#2E7D32',
 				info: '#7E57C2',
 			};
-			const memory = log.showMemoryUsage
-				? `⚙️ ${log.formatBytes(performance.memory.usedJSHeapSize, 0)}`
-				: '';
+			let memory = '⚙️ SSR';
+			if (process.client) {
+				memory = log.showMemoryUsage
+					? `⚙️ ${log.formatBytes(performance.memory.usedJSHeapSize, 0)}`
+					: '';
+			}
+
 			let colorMain = `background: ${
 				colors[type] ? colors[type] : '#424242'
 			}; font-size:10px;color: #FFF;;line-height:15px; font-weight:bold;border-radius:0px 2px 2px 0px;`;

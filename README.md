@@ -30,7 +30,7 @@ Edit your ***nuxt.config.js*** file and load the plugin like this:
 
 ```
 plugins: [
-    { src: '~/plugins/logger', mode: 'client' }
+    { src: '~/plugins/logger' }
 ]
 ```
 ## Usage
