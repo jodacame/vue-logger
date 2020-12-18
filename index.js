@@ -48,9 +48,11 @@ const log = {
 			};
 			let memory = '⚙️';
 			if (typeof performance != 'undefined') {
-				memory = log.showMemoryUsage
-					? `⚙️ ${log.formatBytes(performance.memory.usedJSHeapSize, 0)}`
-					: '';
+				if (typeof performance.memory != 'undefined') {
+					memory = log.showMemoryUsage
+						? `⚙️ ${log.formatBytes(performance.memory.usedJSHeapSize, 0)}`
+						: '';
+				}
 			}
 
 			let colorMain = `background: ${
