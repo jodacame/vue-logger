@@ -1,5 +1,3 @@
-TODO: Improve documentation
-
 ## Features
 
 - Memory usage
@@ -9,11 +7,8 @@ TODO: Improve documentation
 - Very light 3kb
 
 ## Installation 
-
-Install from github for now
-
 ```bash
-npm i https://github.com/jodacame/vue-logger.git
+npm i @jodacame/vue-logger
 ```
 
 ## Nuxt Usage
@@ -22,7 +17,7 @@ Create file into plugins folder  ***plugins/logger.js*** and put the next code:
 
 ```js
 import Vue from 'vue'
-import logger from 'vue-logger'
+import logger from '@jodacame/vue-logger'
 Vue.prototype.$log = logger
 ```
 

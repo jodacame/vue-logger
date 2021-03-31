@@ -1,6 +1,7 @@
 {
-  "name": "vue-logger",
+  "name": "@jodacame/vue-logger",
   "version": "0.1.4",
+  "private": false,
   "description": "Extremely minimalistic logger",
   "main": "index.js",
   "repository": {
